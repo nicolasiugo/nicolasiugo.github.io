@@ -17,13 +17,3 @@ github_username:  nicolasiugo
 
 # Build settings
 markdown: kramdown
-
-
-#github
-lsi: false
-safe: true
-source: /
-incremental: false
-highlighter: rouge
-gist:
-	noscript: false
