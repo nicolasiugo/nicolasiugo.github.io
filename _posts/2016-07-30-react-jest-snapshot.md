@@ -12,11 +12,15 @@ You can take multiple snapshots, for example:
 - simulate a click
 - take another snapshot
 
-This is the outpur after a succesful run:
+This is the output after a succesful run:
 
 ![Success]({{ site.url }}/assets/jest-snapshot-success.png)
 
+
+If we change something, for example introducing a typo, the test will fail:
+
 ![Fail]({{ site.url }}/assets/jest-snapshot-fail.png)
+
 
 This is a great alternative when working with visual components, as it allows you to get up and running immediately with easy-to-write tests.
 
